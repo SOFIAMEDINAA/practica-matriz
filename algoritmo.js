@@ -5,7 +5,7 @@ const matriz = []
 
 function iniciar() {
     let inputFila = parseInt(document.querySelector("#fila").value);
-
+    divTablero.innerHTML =""
 
     for (let fila = 0; fila < inputFila; fila++) {
         divTablero.innerHTML += `
@@ -31,4 +31,9 @@ function agregarColumna() {
 
     }
     return columnas; 
+}
+
+function cambiarColores() {
+    
+
 }
